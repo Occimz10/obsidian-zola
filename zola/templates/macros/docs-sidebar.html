@@ -6,7 +6,7 @@
 			{% if index.pages %}
 					<h3 class="collapsible-section">{{ index.title }}</h3>
 					<div class="collapsible-wrapper">
-						<ul class="list-unstyled">
+						<ul class="list-unstyle">
 						{% for page in index.pages %}                           
 								<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
 						{% endfor %}
