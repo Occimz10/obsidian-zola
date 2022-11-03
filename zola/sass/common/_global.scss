@@ -253,3 +253,11 @@ article {
   display: inline-block;
   margin: 0 0.5em 0.5em 0;
 }
+
+.slash {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 0.5em 0.5em 0;
+  content:'*';
+}

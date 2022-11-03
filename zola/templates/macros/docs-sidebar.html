@@ -6,7 +6,7 @@
 			{% if index.pages %}
 					<h3 class="collapsible-section">{{ index.title }}</h3>
 					<div class="collapsible-wrapper">
-						<ul class="list-unstyle">
+						<ul class="list-unstyled">
 						{% for page in index.pages %}                           
 								<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
 						{% endfor %}
@@ -52,7 +52,7 @@
 											{% if subsubsubsection.pages %}
 													<h6 class="collapsible-section">{{ subsubsubsection.extra.sidebar | safe }}</h6>
 													<div class="collapsible-wrapper">
-														<ul class="list-unstyled">
+														<ul class="Slash">
 														{% for page in subsubsubsection.pages %}                           
 																<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title | safe }}</a></li>
 														{% endfor %}
