@@ -52,7 +52,7 @@
 											{% if subsubsubsection.pages %}
 													<h6 class="collapsible-section">{{ subsubsubsection.extra.sidebar | safe }}</h6>
 													<div class="collapsible-wrapper">
-														<ul class="Slash">
+														<ul class="list-unstyled">
 														{% for page in subsubsubsection.pages %}                           
 																<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title | safe }}</a></li>
 														{% endfor %}
